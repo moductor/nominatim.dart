@@ -3,6 +3,11 @@ description: Dart wrapper for OpenStreetMap Nominatim API.
 version: 1.0.0
 repository: https://github.com/moductor/dart_nominatim
 
+platforms:
+  linux:
+  macos:
+  windows:
+
 environment:
   sdk: ^3.2.3
 
