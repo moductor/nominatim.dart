@@ -1,6 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// Dart wrapper for OpenStreetMap Nominatim API.
 library nominatim;
 
 export "src/methods.dart";
