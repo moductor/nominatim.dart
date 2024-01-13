@@ -1,7 +1,6 @@
 import "package:latlong2/latlong.dart";
 
-import "address.dart";
-import "bounding_box.dart";
+import "../../dart_nominatim.dart";
 
 class Place {
   final int placeId;

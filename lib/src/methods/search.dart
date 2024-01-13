@@ -3,8 +3,8 @@ import "dart:convert";
 import "package:http/http.dart";
 import "package:latlong2/latlong.dart";
 
+import "../../dart_nominatim.dart";
 import "../constants.dart";
-import "../models/place.dart";
 
 Future<List<Place>> searchPlaces(String query) async {
   final params = {

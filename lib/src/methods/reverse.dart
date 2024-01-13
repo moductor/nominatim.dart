@@ -3,7 +3,7 @@ import "dart:convert";
 import "package:http/http.dart";
 import "package:latlong2/latlong.dart";
 
-import "../../nominatim.dart";
+import "../../dart_nominatim.dart";
 import "../constants.dart";
 
 Future<Place> searchPosition(LatLng position) async {

@@ -1,5 +1,5 @@
+import "package:dart_nominatim/dart_nominatim.dart";
 import "package:latlong2/latlong.dart";
-import "package:nominatim/nominatim.dart";
 import "package:test/test.dart";
 
 void main() async {
