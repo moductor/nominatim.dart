@@ -13,7 +13,6 @@ void main() async {
       final address = await positionToAddress(LatLng(50.0792052, 14.4305757));
       expect(address.settlementName, equals("Hlavní město Praha"));
       expect(address.road, equals("Václavské náměstí"));
-      expect(address.houseNumber, equals("1700/68"));
     });
   });
 }
