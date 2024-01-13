@@ -1,7 +1,7 @@
 name: nominatim
 description: Dart wrapper for OpenStreetMap Nominatim API.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/moductor/dart_nominatim
 
 environment:
   sdk: ^3.2.3
