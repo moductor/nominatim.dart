@@ -1,0 +1,6 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    prefer_relative_imports: true
+    prefer_double_quotes: true
