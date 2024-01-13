@@ -31,4 +31,8 @@ class BoundingBox {
   factory BoundingBox.fromJsonArray(List<dynamic> json) {
     return BoundingBox.fromRawValueList(json.cast<double>());
   }
+
+  factory BoundingBox.fromJsonStringArray(List<dynamic> json) {
+    return BoundingBox.fromJsonArray(json.map((e) => double.parse(e)).toList());
+  }
 }

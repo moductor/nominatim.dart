@@ -27,12 +27,17 @@ class Place {
   });
 
   factory Place.fromJson(Map<String, dynamic> json) {
+    final position = LatLng(
+      double.parse(json["lat"]),
+      double.parse(json["lon"]),
+    );
+
     return Place(
       placeId: json["place_id"],
       osmType: json["osm_type"],
       osmId: json["osm_id"],
-      boundingbox: BoundingBox.fromJsonArray(json["boundingbox"]),
-      position: json["position"],
+      boundingbox: BoundingBox.fromJsonStringArray(json["boundingbox"]),
+      position: position,
       displayName: json["display_name"],
       category: json["category"],
       type: json["type"],
